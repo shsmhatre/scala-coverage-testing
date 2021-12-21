@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(coverage, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;set coverageEnabled in ThisBuild := true, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(set coverageEnabled in ThisBuild := true, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining ThisBuild / coverageEnabled[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by Compile / compile / scalacOptions, libraryDependencies[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefining [0m
+[0m[[0m[0mdebug[0m] [0m[0m	ThisBuild / coverageEnabled[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe new value will be used by [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / compile / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	libraryDependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to coverage-testing (in build file:/home/hp/IdeaProjects/coverage-testing/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

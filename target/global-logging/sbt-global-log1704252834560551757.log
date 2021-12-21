@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(coverageReport, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: coverageReport[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWaiting for measurement data to sync...[0m
+[0m[[0m[0minfo[0m] [0m[0mReading scoverage instrumentation [/home/hp/IdeaProjects/coverage-testing/target/scala-2.13/scoverage-data/scoverage.coverage][0m
+[0m[[0m[0minfo[0m] [0m[0mReading scoverage measurements...[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating scoverage reports...[0m
+[0m[[0m[0minfo[0m] [0m[0mWritten Cobertura report [/home/hp/IdeaProjects/coverage-testing/target/scala-2.13/coverage-report/cobertura.xml][0m
+[0m[[0m[0minfo[0m] [0m[0mWritten XML coverage report [/home/hp/IdeaProjects/coverage-testing/target/scala-2.13/scoverage-report/scoverage.xml][0m
+[0m[[0m[0minfo[0m] [0m[0mWritten HTML coverage report [/home/hp/IdeaProjects/coverage-testing/target/scala-2.13/scoverage-report/index.html][0m
+[0m[[0m[0minfo[0m] [0m[0mStatement coverage.: 65.22%[0m
+[0m[[0m[0minfo[0m] [0m[0mBranch coverage....: 100.00%[0m
+[0m[[0m[0minfo[0m] [0m[0mCoverage reports completed[0m
+[0m[[0m[0minfo[0m] [0m[0mAll done. Coverage was [65.22%][0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 17-Dec-2021, 8:59:11 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

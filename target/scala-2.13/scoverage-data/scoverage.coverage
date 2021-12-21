@@ -1,0 +1,1197 @@
+# Coverage data, format version: 2.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/Employee.scala
+<empty>
+Employee
+Trait
+Employee
+getPersondetails
+145
+158
+5
+java.lang.String.+
+Apply
+false
+0
+false
+name.+(" ").+(city)
+
+2
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/Employee.scala
+<empty>
+Employee
+Trait
+Employee
+getPersondetails
+252
+276
+8
+java.lang.String.+
+Apply
+false
+0
+false
+name.+(" ").+(city).+(" ").+(mobile)
+
+3
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+<none>
+123
+138
+2
+HRManager.inputEmpId
+Select
+false
+0
+false
+this.inputEmpId
+
+4
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+<none>
+175
+195
+3
+HRManager.inputDepartment
+Select
+false
+0
+false
+this.inputDepartment
+
+5
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getEmployeeDetails
+256
+259
+5
+<nosymbol>
+Literal
+false
+0
+false
+" "
+
+6
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getEmployeeDetails
+260
+270
+5
+HRManager.department
+Select
+false
+0
+false
+HRManager.this.department
+
+7
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getEmployeeDetails
+248
+270
+5
+java.lang.String.+
+Apply
+false
+0
+false
+HRManager.this.empId.+(" ").+(HRManager.this.department)
+
+8
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+353
+377
+8
+scala.Int.==
+Apply
+false
+0
+false
+percentageIncrement.==(0)
+
+9
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+380
+469
+8
+<nosymbol>
+Throw
+false
+0
+false
+throw WrongInputException.apply("Wrong input please pass percentage greater than 0")
+
+10
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+380
+469
+8
+<nosymbol>
+Block
+true
+0
+false
+throw WrongInputException.apply("Wrong input please pass percentage greater than 0")
+
+11
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+349
+349
+8
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+12
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+349
+349
+8
+<nosymbol>
+Block
+true
+0
+false
+()
+
+13
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+478
+503
+10
+scala.Int.>
+Apply
+false
+0
+false
+percentageIncrement.>(100)
+
+14
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+506
+570
+10
+<nosymbol>
+Throw
+false
+0
+false
+throw UpperBoundException.apply("Percentage can not be more than 100")
+
+15
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+506
+570
+10
+<nosymbol>
+Block
+true
+0
+false
+throw UpperBoundException.apply("Percentage can not be more than 100")
+
+16
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+474
+474
+10
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+17
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+474
+474
+10
+<nosymbol>
+Block
+true
+0
+false
+()
+
+18
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+607
+644
+11
+scala.Double./
+Apply
+false
+0
+false
+currentSalary.*(percentageIncrement)./(100)
+
+19
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+getSalary
+591
+644
+11
+scala.Double.+
+Apply
+false
+0
+false
+currentSalary.+(currentSalary.*(percentageIncrement)./(100))
+
+20
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+<none>
+737
+747
+15
+scala.Double.==
+Apply
+false
+0
+false
+x.%(3).==(0)
+
+21
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+<none>
+751
+754
+15
+scala.Double.*
+Apply
+false
+0
+false
+x.*(3)
+
+22
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/HRManager.scala
+<empty>
+HRManager
+Class
+HRManager
+<none>
+721
+721
+14
+HRManager.$anonfun.<init>
+Apply
+false
+0
+false
+new $anonfun()
+
+23
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+115
+155
+4
+<nosymbol>
+Literal
+false
+0
+false
+"/home/hp/Downloads/StateCensusData.csv"
+
+24
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+99
+156
+4
+scala.io.Source.fromFile
+ApplyToImplicitArgs
+false
+0
+false
+scala.io.Source.fromFile("/home/hp/Downloads/StateCensusData.csv")(io.this.Codec.fallbackSystemCodec)
+
+25
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+197
+203
+5
+scala.collection.immutable.Nil
+Select
+false
+0
+false
+scala.collection.immutable.Nil
+
+26
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+223
+253
+6
+scala.collection.Iterator.next
+Apply
+false
+0
+false
+source.getLines().take(1).next()
+
+27
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+315
+330
+8
+java.lang.String.split
+Apply
+false
+0
+false
+line.split(",")
+
+28
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+335
+341
+8
+java.lang.String.trim
+Apply
+false
+0
+false
+x$1.trim()
+
+29
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+315
+342
+8
+scala.collection.ArrayOps.map
+ApplyToImplicitArgs
+false
+0
+false
+scala.Predef.refArrayOps[String](line.split(",")).map[String](((x$1: String) => x$1.trim()))((ClassTag.apply[String](classOf[java.lang.String]): scala.reflect.ClassTag[String]))
+
+30
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+315
+349
+8
+scala.collection.IterableOnceOps.toList
+Select
+false
+0
+false
+scala.Predef.wrapRefArray[String](scala.Predef.refArrayOps[String](line.split(",")).map[String](((x$1: String) => x$1.trim()))((ClassTag.apply[String](classOf[java.lang.String]): scala.reflect.ClassTag[String]))).toList
+
+31
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+360
+376
+9
+scala.Predef.println
+Apply
+false
+0
+false
+scala.Predef.println(columns)
+
+32
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+405
+407
+10
+<nosymbol>
+Literal
+false
+0
+false
+""
+
+33
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+439
+440
+11
+<nosymbol>
+Literal
+false
+0
+false
+0
+
+34
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+473
+474
+12
+<nosymbol>
+Literal
+false
+0
+false
+0
+
+35
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+509
+510
+13
+<nosymbol>
+Literal
+false
+0
+false
+0
+
+36
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+525
+543
+14
+java.lang.Object.!=
+Apply
+false
+0
+false
+columns.apply(0).!=(null)
+
+37
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+567
+577
+15
+scala.collection.LinearSeqOps.apply
+Apply
+false
+0
+false
+columns.apply(0)
+
+38
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+560
+577
+15
+<nosymbol>
+Assign
+true
+0
+false
+name = columns.apply(0)
+
+39
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+521
+521
+14
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+40
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+521
+521
+14
+<nosymbol>
+Block
+true
+0
+false
+()
+
+41
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+604
+622
+17
+java.lang.Object.!=
+Apply
+false
+0
+false
+columns.apply(1).!=(null)
+
+42
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+651
+661
+18
+scala.collection.LinearSeqOps.apply
+Apply
+false
+0
+false
+columns.apply(1)
+
+43
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+651
+667
+18
+scala.collection.StringOps.toInt
+Select
+false
+0
+false
+scala.Predef.augmentString(columns.apply(1)).toInt
+
+44
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+638
+667
+18
+<nosymbol>
+Assign
+true
+0
+false
+population = scala.Predef.augmentString(columns.apply(1)).toInt
+
+45
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+600
+600
+17
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+46
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+600
+600
+17
+<nosymbol>
+Block
+true
+0
+false
+()
+
+47
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+713
+731
+22
+java.lang.Object.!=
+Apply
+false
+0
+false
+columns.apply(2).!=(null)
+
+48
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+762
+772
+23
+scala.collection.LinearSeqOps.apply
+Apply
+false
+0
+false
+columns.apply(2)
+
+49
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+762
+778
+23
+scala.collection.StringOps.toInt
+Select
+false
+0
+false
+scala.Predef.augmentString(columns.apply(2)).toInt
+
+50
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+749
+778
+23
+<nosymbol>
+Assign
+true
+0
+false
+areaInSqKm = scala.Predef.augmentString(columns.apply(2)).toInt
+
+51
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+709
+709
+22
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+52
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+709
+709
+22
+<nosymbol>
+Block
+true
+0
+false
+()
+
+53
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+709
+792
+22
+<nosymbol>
+If
+true
+0
+false
+if (columns.apply(2).!=(null))
+  areaInSqKm = scala.Predef.augmentString(columns.apply(2)).toInt
+else
+  ()
+
+54
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+845
+861
+26
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+55
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+902
+920
+31
+java.lang.Object.!=
+Apply
+false
+0
+false
+columns.apply(3).!=(null)
+
+56
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+951
+961
+32
+scala.collection.LinearSeqOps.apply
+Apply
+false
+0
+false
+columns.apply(3)
+
+57
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+951
+967
+32
+scala.collection.StringOps.toInt
+Select
+false
+0
+false
+scala.Predef.augmentString(columns.apply(3)).toInt
+
+58
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+936
+967
+32
+<nosymbol>
+Assign
+true
+0
+false
+densityPerKm = scala.Predef.augmentString(columns.apply(3)).toInt
+
+59
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+898
+898
+31
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+60
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+898
+898
+31
+<nosymbol>
+Block
+true
+0
+false
+()
+
+61
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+898
+979
+31
+<nosymbol>
+If
+true
+0
+false
+if (columns.apply(3).!=(null))
+  densityPerKm = scala.Predef.augmentString(columns.apply(3)).toInt
+else
+  ()
+
+62
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+1028
+1042
+35
+<nosymbol>
+Literal
+false
+0
+false
+()
+
+63
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+1087
+1144
+39
+CsvStates.<init>
+Apply
+false
+0
+false
+new CsvStates(name, population, areaInSqKm, densityPerKm)
+
+64
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+1075
+1144
+39
+scala.collection.SeqOps.:+
+Apply
+false
+0
+false
+csvStates.:+[CsvStates](new CsvStates(name, population, areaInSqKm, densityPerKm))
+
+65
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+260
+1152
+7
+scala.collection.IterableOnceOps.foreach
+Apply
+false
+0
+false
+source.getLines().foreach[Unit](((line: String) => {
+  var columns: List[String] = scala.Predef.wrapRefArray[String](scala.Predef.refArrayOps[String](line.split(",")).map[String](((x$1: String) => x$1.trim()))((ClassTag.apply[String](classOf[java.lang.String]): scala.reflect.ClassTag[String]))).toList;
+  scala.Predef.println(columns);
+  var name: String = "";
+  var population: Int = 0;
+  var areaInSqKm: Int = 0;
+  var densityPerKm: Int = 0;
+  if (columns.apply(0).!=(null))
+    name = columns.apply(0)
+  else
+    ();
+  if (columns.apply(1).!=(null))
+    population = scala.Predef.augmentString(columns.apply(1)).toInt
+  else
+    ();
+  try {
+    if (columns.apply(2).!=(null))
+      areaInSqKm = scala.Predef.augmentString(columns.apply(2)).toInt
+    else
+      ()
+  } catch {
+    case (e @ (_: Exception)) => ()
+  };
+  try {
+    if (columns.apply(3).!=(null))
+      densityPerKm = scala.Predef.augmentString(columns.apply(3)).toInt
+    else
+      ()
+  } catch {
+    case (e @ (_: Exception)) => ()
+  };
+  csvStates = csvStates.:+[CsvStates](new CsvStates(name, population, areaInSqKm, densityPerKm))
+}))
+
+66
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/StateCensusAnalyser.scala
+<empty>
+StateCensusAnalyser
+Class
+StateCensusAnalyser
+getNumberRecords
+1159
+1173
+41
+scala.collection.SeqOps.size
+Select
+false
+0
+false
+csvStates.size
+
+67
+/home/hp/IdeaProjects/coverage-testing/src/main/scala/Technology.scala
+<empty>
+Technology
+Trait
+Technology
+getTrainingSchedule
+86
+98
+3
+java.lang.String.+
+Apply
+false
+0
+false
+day.+(" ").+(time)
+

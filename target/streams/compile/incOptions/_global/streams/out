@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/hp/IdeaProjects/coverage-testing/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UpperBoundException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Employee.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StateCensusAnalyser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HRManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WrongInputException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UpperBoundException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Technology.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CsvStates.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WrongInputException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HRManager$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LowerBoundException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LowerBoundException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/hp/IdeaProjects/coverage-testing/target/scala-2.13/classes.bak[0m

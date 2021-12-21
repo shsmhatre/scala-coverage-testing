@@ -1,0 +1,6 @@
+projectKey=coverage-testing
+serverUrl=http://localhost
+serverVersion=8.7.1.42226
+dashboardUrl=http://localhost/dashboard?id=coverage-testing
+ceTaskId=AX3TbG74nRJ69344bCyx
+ceTaskUrl=http://localhost/api/ce/task?id=AX3TbG74nRJ69344bCyx
